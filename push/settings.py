@@ -20,8 +20,8 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-VAPID_PRIVATE_KEY = open(os.path.join(BASE_DIR, 'vapid_private.pem'), "r+").readline().strip("\n")
-VAPID_PUBLIC_KEY = open(os.path.join(BASE_DIR, 'vapid_public.pem'), "r+").read().strip("\n")
+#VAPID_PRIVATE_KEY = open(os.path.join(BASE_DIR, 'vapid_private.pem'), "r+").readline().strip("\n")
+#VAPID_PUBLIC_KEY = open(os.path.join(BASE_DIR, 'vapid_public.pem'), "r+").read().strip("\n")
 
 
 # Quick-start development settings - unsuitable for production
